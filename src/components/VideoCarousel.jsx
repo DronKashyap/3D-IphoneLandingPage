@@ -75,7 +75,7 @@ const VideoCarousel = () => {
           }
         },
 
-        // when the video is ended, replace the progress bar with the indicator and change the background color
+     
         onComplete: () => {
           if (isPlaying) {
             gsap.to(videoDivRef.current[videoId], {
@@ -92,7 +92,7 @@ const VideoCarousel = () => {
         anim.restart();
       }
 
-      // update the progress bar
+  
       const animUpdate = () => {
         anim.progress(
           videoRef.current[videoId].currentTime /
