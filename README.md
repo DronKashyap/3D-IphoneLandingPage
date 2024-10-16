@@ -4,7 +4,7 @@
 - Three.js
 - React Three Fiber
 - React Three Drei
-- GSAP (Greensock)
+- GSAP 
 - Tailwind CSS
 
 
